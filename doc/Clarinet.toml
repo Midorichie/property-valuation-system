@@ -1,0 +1,15 @@
+[project]
+name = "property-valuation-system"
+description = "Decentralized property valuation platform"
+authors = ["Your Name <your.email@example.com>"]
+telemetry = false
+
+[contracts.property-valuation]
+path = "contracts/property-valuation.clar"
+clarity_version = 2
+epoch = 2.1
+
+[contracts.token-rewards]
+path = "contracts/token-rewards.clar"
+clarity_version = 2
+epoch = 2.1
